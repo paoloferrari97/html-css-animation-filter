@@ -72,3 +72,12 @@
         transform: rotate(1turn);
     }
 }
+
+.ex-11-icon:hover{
+    animation: ruota_075 2s linear;
+}
+@keyframes ruota_075 {
+    75%{
+    transform: rotate(0.75turn);
+    }
+}
