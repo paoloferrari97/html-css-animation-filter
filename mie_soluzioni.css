@@ -64,3 +64,11 @@
     transform: scale(1.4);
 }
 
+.ex-10-icon{
+    animation: ruota 2s linear infinite;
+}
+@keyframes ruota {
+    100%{
+        transform: rotate(1turn);
+    }
+}
